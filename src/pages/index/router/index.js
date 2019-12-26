@@ -1,7 +1,7 @@
 import Vue from "vue";
-import VueRouter from 'vue-router';
-import home from "@/pages/index/view/home.vue"
-import main from "@/pages/index/view/main.vue"
+import VueRouter from "vue-router";
+import home from "@/pages/index/view/home.vue";
+import main from "@/pages/index/view/main.vue";
 
 Vue.use(VueRouter);
 
@@ -19,8 +19,8 @@ const routes = [
     component: main,
     meta: {
       title: "第一页"
-    },
-  },
+    }
+  }
 ];
 
 const router = new VueRouter({
