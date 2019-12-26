@@ -2,7 +2,8 @@
   <div id="app">
     <img alt="Vue logo" src="../../assets/logo.png">
     <HelloWorld msg="页面2：ceshi2 "/>
-    <p>页面1URL：http://localhost:8081</p>
+	<a href="http://localhost:8460">页面1URL：http://localhost:8460</a>
+    <p>页面1URL：http://localhost:8460</p>
   </div>
 </template>
 

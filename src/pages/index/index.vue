@@ -1,18 +1,14 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="../../assets/logo.png">
-    <HelloWorld msg="页面1：index（默认显示）"/>
-    <p>页面2URL：http://localhost:8081/ceshi2.html</p>
+	<router-view />
+	<a href="http://localhost:8460/#/main">页面2URL：http://localhost:8460/#/main</a>
   </div>
 </template>
 
 <script>
-import HelloWorld from '../../components/HelloWorld.vue'
-
 export default {
   name: 'app',
   components: {
-    HelloWorld
   }
 }
 </script>
